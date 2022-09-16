@@ -1,5 +1,4 @@
-#system programming
-This is where we start writting actual programming cod---
+---
 # Softrays
 
 - __[GitHub Account](github.com/softraysjohn)__ - high quality and fast image resize in browser.
