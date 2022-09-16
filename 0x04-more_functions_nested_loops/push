@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'c-programming-2'
+git commit -m 'c-programming-4'
 git push
