@@ -1,35 +1,19 @@
+#include <stdio.h>
 #include "main.h"
 /**
-* _strlen - like strlen
-* @s: string
-*
-* Return: length
-*/
-int _strlen(char *s)
-{
-	int len = 0;
-
-	while ('\0' != *(s++))
-		++len;
-	return (len);
-}
-
-/**
-* puts_half - print the second half of a string
-* @str: the string
+* print_array - print n members of array
+* @a: the aray Oof ints)
+* @n: number of members to print
 *
 */
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
-	int i, start, len;
+	int i;
 
-	len = _strlen(str);
-	start = len / 2 + len % 2;
-	i = 0;
-	while (*(str + start + i) != '\0')
-	{
-		_putchar(*(str + start + i));
-		i++;
-	}
+	for (i = 0; i < n; i++)
+		if (i == 0)
+			printf("%d", a[i]);
+		else
+			printf(", %d", a[i]);
 }
 
