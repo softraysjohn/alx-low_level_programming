@@ -1,16 +1,15 @@
-#include "main.h"
 /**
-* _puts - prints string and new line
-* @str: String
+* _strlen - like strlen
+* @s: string
 *
+* Return: length
 */
-void _puts(char *str)
+int _strlen(char *s)
 {
-	while ('\0' != *(str))
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+	int len = 0;
+
+	while ('\0' != *(s++))
+		++len;
+	return (len);
 }
 
