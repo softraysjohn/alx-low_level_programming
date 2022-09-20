@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 		if (i == 0)
 			printf("%d", a[i]);
 		else
-			printf(",%c%d", 32, a[i]);
+			printf(",%c%d", 32, a[i]);
 	_putchar(10);
 }
 
