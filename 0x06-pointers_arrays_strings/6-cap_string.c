@@ -48,8 +48,10 @@ char c_to_upper(char c)
 {
 	int gap;
 
-	gap = 32 ^ 0xff;
-	return (c & gap);
+	gap = 'a' - 'A';
+	if (c >= 'a' && c <= 'z')
+		return (c - gap);
+	return (c);
 }
 /**
 * cap_string - capitalize words
