@@ -37,14 +37,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	/*end-if*/
 	i = 0;
-	while (i < len_1 && s1[i] != '\0')
+	while (s1[i] != '\0' && (i < len_1))
 	{
 		dst[i] = s1[i];
 		++i;
 	}
 	len_1 = i;
 	i = 0;
-	while (s2[i] != '\0' && i < n && i < len_2)
+	while (s2[i] != '\0' && i < n && (i < len_2))
 	{
 		dst[i + len_1] = s2[i];
 		++i;
