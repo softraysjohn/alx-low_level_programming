@@ -2,13 +2,10 @@
 
 /**
  *
- * * _putchar - display character
+ * _putchar - display character
+ * @c: character
  *
- * * @c: character
- *
- * *
- *
- * */
+ */
 
 void _putchar(char c)
 
