@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - print the name of the program
- * @argc: Count arguments
+ * main - print like the of last in line
+ * @argc: Number of  arguments
  * @argv: Arguments
  *
  * Return: Always 0 (Success)
