@@ -33,7 +33,6 @@ return (0);
 /*Declaring While*/
 
 while (coins[position] != '\0')
-
 {
 if (total >= coins[position])
 {
